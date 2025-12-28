@@ -19,7 +19,7 @@ function SpamForm() {
     setResult(null);
 
     try {
-      const response = await fetch("https://spam-email-backend.onrender.com/predict", {
+      const response = await fetch("https://spam-email-backend-t21e.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
